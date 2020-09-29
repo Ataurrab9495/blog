@@ -200,15 +200,19 @@
 
  .container {
      float: right;
-     margin-right: 20px;
+  
+     margin:10px;
  }
 
  .main_container {
-     padding: 5px;
+    /*  padding: 5px;
      max-width: 100%;
-     border: black solid;
-     display: flex;
-     justify-content: space-evenly;
+     border: black solid; */
+    border-style: dashed;
+    
+    display: flex;
+  flex-flow: row wrap;
+
      /* height: 700px; */
      /* align-items: flex-start; */
  }
@@ -219,7 +223,7 @@
      width: 30%;
      padding: 10px;
      border: 1px black solid;
-     margin-left: 10px;
+     margin:10px;
  }
 
  .flexbox p {
@@ -338,6 +342,7 @@
     height: auto;
     width:24.7%;
     padding: 10px;
+    margin-top:40px;
     
 }
 
