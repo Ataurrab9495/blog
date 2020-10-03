@@ -1,4 +1,9 @@
 /* readBlog_page */
+
+body {
+    background: linear-gradient(to bottom, #FFB88C, #DE6262);
+}
+
 .header {
     margin: 0px;
 }
@@ -25,7 +30,6 @@
     background: linear-gradient(rgb(22, 139, 22), rgb(18, 146, 18));
     border-radius: 5px;
     color: white;
-
     cursor: pointer;
 }
 
@@ -42,39 +46,48 @@
 #read {
     font-weight: bolder;
     cursor: pointer;
+    background: linear-gradient(rgb(12, 250, 210), rgb(131, 209, 235));
+    box-shadow: 2px 2px 10px black;
+    border-radius: 7px;
+    width: 100px;
 }
 
 #search {
     font-size: medium;
     float: right;
+    border-radius: 7px;
 }
+
+
+/* #read {
+    background: linear-gradient(rgb(12, 250, 210), rgb(131, 209, 235));
+    box-shadow: 2px 2px 10px black;
+    border-radius: 7px;
+}
+ */
 
 .container {
     float: right;
- 
-    margin:10px;
+    margin: 10px;
 }
 
 .main_container {
-   /*  padding: 5px;
+    /*  padding: 5px;
     max-width: 100%;
-    border: black solid; */
-   border-style: dashed;
-   
-   display: flex;
- flex-flow: row wrap;
-
-    /* height: 700px; */
+    border: black solid; 
+    border-style: dashed;*/
+    display: flex;
+    flex-flow: row wrap;
+    height: 700px;
     /* align-items: flex-start; */
 }
 
 .flexbox {
-
-    background-color: rgb(241, 247, 168);
-    width: 30%;
+    background-color: rgb(253, 116, 246);
+    width: 25%;
     padding: 10px;
     border: 1px black solid;
-    margin:10px;
+    margin: auto;
 }
 
 .flexbox p {
