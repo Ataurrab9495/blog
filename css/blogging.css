@@ -1,10 +1,11 @@
  * {
      box-sizing: border-box;
  }
-
+ 
+ 
  .body {
      background-image: url('../image/fishing-5552310_1920.jpg');
-     background-size: cover;
+     background-size: 100% 100%;
      background-repeat: no-repeat;
  }
 
@@ -67,6 +68,9 @@
      border-radius: 5px;
      color: white;
      cursor: pointer;
+ }
+ .main button a{
+    color: white;
  }
 
  .main button:hover {
@@ -162,7 +166,9 @@
      color: black;
  }
 
-
+a:hover{
+    text-decoration: none;
+}
  .signupModel {
      display: flex;
      flex-direction: column;
